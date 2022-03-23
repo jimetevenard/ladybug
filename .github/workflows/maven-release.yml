@@ -72,4 +72,6 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         tag_name: ${{ steps.tag-name.outputs.TAG }} # On récupère le tag extrait au step précédent.
-        files: target/*.jar # Attachement du jar produit à la release Github
+        files:
+        - target/*.jar # Attachement à la release Github du jar produit 
+        - target/*.exe # Attachement à la release Github de l'exe Windows produit
