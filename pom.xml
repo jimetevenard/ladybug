@@ -3,7 +3,7 @@
 	
 	<groupId>com.kycox</groupId>
 	<artifactId>ladybug</artifactId>
-	<version>1.0.0-JIM-TEST</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	
 	<name>ladybug</name>
@@ -23,7 +23,7 @@
       <scm>
     <developerConnection>scm:git:https://github.com/jimetevenard/ladybug.git</developerConnection>
     <url>https://github.com/jimetevenard/ladybug</url>
-    <tag>v1.0.0-JIM-TEST</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <distributionManagement>
